@@ -1,0 +1,51 @@
+.clock {
+    background-color: rgb(241, 164, 194);
+    height: 500px;
+    width: 500px;
+}
+h1{
+    font-family: 'Handjet', cursive;
+    font-size: 60px;
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 164, 194)
+}
+@media (max-width: 320px) {
+    .clock {
+        height: 200px;
+        width: 200px;
+    }
+    h1{
+        font-size: 30px;
+    }
+}
+@media (min-width: 321px) and (max-width: 480px) {
+    .clock {
+        height: 300px;
+        width: 300px;
+    }
+    h1{
+        font-size: 40px;
+    }
+}
+/*
+@media (min-width: 481px) and (max-width: 720px) {
+    .clock {
+        height: 400px;
+        width: 400px;
+    }
+}*/
